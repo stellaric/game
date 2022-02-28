@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Rowdies',sans-serif;
+    background: url('https://josuaowebblog.fr/wp-content/uploads/2021/06/briques.jpg');
+    background-size: cover;
+}
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #000000;
+   background-color: rgba(5, 5, 5, 0.377);
+}
+nav h1{
+    color: #f8efef;
+    font-family:'Ubuntu',sans-serif ;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    padding-bottom: 5px;
+    
+}
+
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 290px;
+    color: #fff;
+}
+
+
+header h1{
+    font-family:'Rowdies',sans-serif ;
+    font-size: 60px;
+    margin-top: -200px;
+}
+.effetneon {
+    font-size: 14rem;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 42px rgb(230, 18, 124),
+        0 0 77px rgb(230, 18, 124),
+        0 0 100px rgb(230, 18, 124);
+    animation: lumiere 1s infinite linear;
+}
+@keyframes lumiere {
+    0%{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 42px rgb(230, 18, 124),
+        0 0 77px rgb(230, 18, 124),
+        0 0 100px rgb(230, 18, 124);
+    }
+   50%{
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 32px rgb(230, 18, 124),
+        0 0 87px rgb(230, 18, 124),
+        0 0 120px rgb(230, 18, 124);
+    }
+}
+.effetneon span {
+    font-size: 16rem;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+text-shadow: 0 0 8px #FFFFFF;
+}
+
+header button{
+    margin-top: 20px;
+    padding: 40px 50px;
+    background-color: rgba(48, 44, 44, 0.164);
+    color: white;
+    border:none ;
+    font-size:20px;
+    font-family:'Ubuntu',sans-serif ;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -8px -6px 3px -3px rgba(135,135,135,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -8px -6px 3px -3px rgba(135,135,135,0);
+}
+
+
+
+.main{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #131212 ;
+   background-color: rgba(66, 64, 64, 0.226);
+    color: white;
+    padding: 30px 100px; 
+}
+
+footer h1{
+    font-family:'Montserrat',sans-serif ;
+    
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .faqs{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .faqs .faq{
+    margin-right: 30px;
+    padding: 10px;
+}
+
+
+footer .faqs .faq p{
+    max-width: 300px;
+}
+
+footer #contact{
+    color: rgb(223, 221, 221);
+}
+
